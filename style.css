@@ -577,6 +577,9 @@
   .work-section {
     background: #1f232a;   /* soft dark, boxy না */
   }
+  .project-item {
+    display: none;
+  }
   
   
   

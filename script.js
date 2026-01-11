@@ -48,6 +48,34 @@ function openModal(type) {
 function closeModal() {
   document.getElementById("serviceModal").style.display = "none";
 }
+document.addEventListener("DOMContentLoaded", function () {
+    const projects = document.querySelectorAll(".project-item");
+    const btn = document.querySelector("#seeMoreBtn");
+
+    let visibleCount = 3; // first row (3 items)
+
+    // show first row initially
+    for (let i = 0; i < visibleCount && i < projects.length; i++) {
+      projects[i].style.display = "block";
+    }
+
+    btn.addEventListener("click", function (e) {
+      e.preventDefault();
+
+      let nextCount = visibleCount + 3;
+
+      for (let i = visibleCount; i < nextCount && i < projects.length; i++) {
+        projects[i].style.display = "block";
+      }
+
+      visibleCount = nextCount;
+
+      // hide button if all shown
+      if (visibleCount >= projects.length) {
+        btn.style.display = "none";
+      }
+    });
+  });
 
   
   
