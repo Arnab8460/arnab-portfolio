@@ -27,7 +27,7 @@ function openModal(type) {
   if (type === "backend") {
     title.innerText = "Back-end Development";
     text.innerText =
-      "I build scalable and secure backend applications using PHP, Laravel, Java and Spring Boot. Experience includes CRM systems, authentication modules and backend architecture.";
+      "I am a backend developer with experience in PHP, Laravel, Core PHP, and CodeIgniter. I have worked on building secure and scalable backend systems, including authentication modules and CRM-based applications. I also use JavaScript, jQuery, and AJAX to create dynamic and interactive features.";
   }
 
   if (type === "api") {
