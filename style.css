@@ -580,6 +580,79 @@
   .project-item {
     display: none;
   }
+  /* PROFESSIONAL EXPERIENCE */
+.office-projects {
+  background: #000;
+  padding: 100px 70px;
+}
+
+.section-title {
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+.section-subtitle {
+  text-align: center;
+  color: #aaa;
+  margin-bottom: 50px;
+  font-size: 14px;
+}
+
+.office-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 30px;
+}
+
+.office-card {
+  background: #1c1c1c;
+  padding: 25px;
+  border-radius: 10px;
+  transition: 0.3s;
+}
+
+.office-card:hover {
+  transform: translateY(-8px);
+  background: #262626;
+}
+
+.office-card h5 {
+  color: #ff004f;
+  margin-bottom: 5px;
+}
+
+.office-card .domain {
+  font-size: 12px;
+  color: #bbb;
+  display: block;
+  margin-bottom: 15px;
+}
+
+.office-card ul {
+  padding-left: 18px;
+  font-size: 14px;
+}
+
+.office-card li {
+  margin-bottom: 8px;
+}
+
+.office-card .badge {
+  display: inline-block;
+  margin-top: 15px;
+  background: #ff004f;
+  padding: 5px 12px;
+  font-size: 11px;
+  border-radius: 20px;
+}
+
+.note {
+  text-align: center;
+  color: #777;
+  margin-top: 40px;
+  font-size: 13px;
+}
+
   
   
   
